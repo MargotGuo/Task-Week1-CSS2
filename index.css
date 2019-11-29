@@ -95,10 +95,13 @@ i.iconfont {
   width: 38%;
 }
 .text-container {
-  position: relative;
   padding-left: 40px;
   padding-top: 10px;
+  padding-bottom: 20px;
   width: 56%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .blog-img {
   width: 100%;
@@ -112,17 +115,16 @@ i.iconfont {
   text-align: justify;
 }
 .blog-abstract {
+  margin-top: 10px;
   font-family: "DengXian";
   font-size: 30px;
   color: #8A8A8A;
-  margin-top: 20px;
   text-align: justify;
   line-height: 40px;
 }
 .blog-detail {
-  position: absolute;
-  bottom: 30px;
   display: flex;
+  margin-top: 40px;
 }
 .price {
   font-size: 30px;
