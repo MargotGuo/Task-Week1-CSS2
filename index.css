@@ -31,18 +31,20 @@ i.iconfont {
   text-decoration: none;
 }
 .banner {
-  height: 500px;
+  height: 50px;
   background-image: url(img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 450px;
+  padding-right: 25px;
 }
 .dot {
-  position: relative;
-  top: 450px;
-  right: 20px;
   margin: 5px;
   height: 20px;
   width: 20px;
   border-radius: 10px;
-  float: right;
 }
 .unchoosed {
   background-color: #727272;
